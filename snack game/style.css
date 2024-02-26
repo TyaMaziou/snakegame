@@ -1,0 +1,32 @@
+  body { 
+    background-color: #f0f0f0; 
+    padding: 2rem; 
+  }
+
+  canvas { 
+    border: 3px solid rgb(16, 54, 0); 
+    margin: 10rem; 
+    background-color: #000000; 
+  }
+
+  #gameOverText { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 3rem; 
+    color: rgb(0, 0, 0); 
+    background-color: #f0f0f0;
+  }
+
+  #restartButton { 
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: green; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer;
+  }
